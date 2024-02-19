@@ -58,7 +58,7 @@ int lomuto_partition(int *array, size_t size, int left_part, int right_part)
  * lomuto_recur - recursivly calls partion on subarrays
  *
  * @array: array to be sorted
- * @size; size of array
+ * @size: size of array
  * @left_part: elements les than pivot
  * @right_part: elements more than pivot
  *
